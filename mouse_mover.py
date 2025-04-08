@@ -10,8 +10,8 @@ def move_mouse():
             x, y = pyautogui.position()
             
             # Смещаем курсор немного вправо и обратно
-            pyautogui.moveRel(10, 0, duration=0.1)
-            pyautogui.moveRel(-10, 0, duration=0.1)
+            pyautogui.moveRel(50, 0, duration=0.1)
+            pyautogui.moveRel(-50, 0, duration=0.1)
             
             # Ждем 10 минут (600 секунд)
             time.sleep(600)
